@@ -6,3 +6,5 @@ def palindrom_check(word):
         word_backward.insert(-len(word),letter)
     palindrom_result= bool(word_normal==word_backward)
     return palindrom_result
+print(palindrom_check('kot'))
+print(palindrom_check('kajak'))
